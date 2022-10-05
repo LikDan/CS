@@ -1,9 +1,30 @@
 // void Task1()
 // {
-//     Console.WriteLine("Enter n");
-//     var n = Console.ReadLine()?.ToCharArray();
+//         Console.WriteLine("Enter n");
+//         var n = Console.ReadLine();
 //
-//     Console.WriteLine(n?.Length == n?.Distinct().ToArray().Length ? "Yep" : "Nope");
+//         Console.WriteLine(n?.ToCharArray().Length == n?.ToCharArray().Distinct().ToArray().Length ? "Yep" : "Nope");
+//
+//         var i = Convert.ToInt32(n);
+//         var ii = 0;
+//         while (i / Math.Pow(10, ii) >= 1)
+//         {
+//             var n1 = Convert.ToInt32(i / Math.Pow(10, ii)) % 10;
+//             ii++;
+//
+//             var iii = 0;
+//             while (i / Math.Pow(10, iii) >= 1)
+//             {
+//                 var n2 = Convert.ToInt32(i / Math.Pow(10, iii)) % 10;
+//                 iii++;
+//
+//                 if (n1 != n2 || ii == iii) continue;
+//                 Console.WriteLine("Nope");
+//                 return;
+//             }
+//         }
+//
+//         Console.WriteLine("Yep");
 // }
 //
 // void Task2()
@@ -33,7 +54,7 @@
 // {
 //     var sum = 0;
 //
-//     for (var i = 2; i * i <= n; i++)
+//     for (var i = 2; i * i < n; i++)
 //     {
 //         if (n % i != 0) continue;
 //
@@ -75,6 +96,7 @@
 //
 //     Console.WriteLine(sumK == sumN ? "Yep" : "Nope");
 // }
+//
 // void Task5()
 // {
 //     Console.WriteLine("Enter n");
@@ -93,23 +115,43 @@
 //
 //         sum += uSum / f;
 //     }
-//     
+//
 //     Console.WriteLine($"Sum = {sum}");
 // }
 //
-// //source: https://studassistent.ru/charp/cikl-napechatat-k-yu-cifru-posledovatelnosti-v-kotoroy-vypisany-podryad-vse-naturalnye-chisla-c
+// //source: https://www.cyberforum.ru/csharp-beginners/thread1450160.html
+// int GetDigit(int x, int digitNumber)
+// {
+//     var digitCount = (int)Math.Log10(x) + 1;
+//     if (digitNumber > digitCount)
+//         return -1;
+//  
+//     var pow = (int)Math.Pow(10, digitCount - digitNumber);
+//     return x / pow % 10;
+// }
+//
 // void Task6()
 // {
-//     var x = 0;
-//     var s = "";
 //     Console.Write("Enter k");
+//     var currNumber = 1;
 //     var k = Convert.ToInt32(Console.ReadLine());
-//     for (var i = 1; i <= k; i++)
+//     for (var i = 0; i < k; i++)
 //     {
-//         x += 1;
-//         s += x;
+//         var ii = 1;
+//         while (GetDigit(currNumber, ii) != -1)
+//         {
+//             if (ii > 1) i++;
+//             if (i == k - 1)
+//             {
+//                 Console.WriteLine($"K = {GetDigit(currNumber, ii)}");
+//                 return;
+//             }
+//
+//             ii++;
+//         }
+//
+//         currNumber++;
 //     }
-//     Console.WriteLine($"K = {s[k-1]}");
 // }
 //
 // while (true)
