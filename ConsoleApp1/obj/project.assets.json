@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/likdan/.nuget/packages/": {}
+    "C:\\Users\\LikDan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/likdan/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+      "projectUniqueName": "P:\\CS\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "/home/likdan/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
-      "packagesPath": "/home/likdan/.nuget/packages/",
-      "outputPath": "/home/likdan/RiderProjects/ConsoleApp1/ConsoleApp1/obj/",
+      "projectPath": "P:\\CS\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\LikDan\\.nuget\\packages\\",
+      "outputPath": "P:\\CS\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/likdan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\LikDan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\LikDan\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
