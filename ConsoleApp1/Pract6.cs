@@ -54,7 +54,7 @@
 //     var arr = WriteEnterArrayViaSpaceAndReadLineSplitSpacesAndConvertToIntArray();
 //     Array.Sort(arr);
 //
-//     Console.WriteLine(string.Join(" ", arr[3..].Reverse()));
+//     Console.WriteLine(string.Join(" ", arr.Reverse().ToArray()[..3].Reverse()));
 // }
 //
 // void MinMax(ref int x, ref int y)
@@ -97,7 +97,7 @@
 // {
 //     Console.WriteLine("Enter x and e(s)");
 //     var x = Convert.ToDouble(Console.ReadLine());
-//     var es = ReadLineSplitSpacesAndConvertToInt();
+//     var es = ReadLineAndSplitSpaces().Select(Convert.ToDouble);
 //     foreach (var e in es)
 //     {
 //         var res = Arctg1(x, e);
