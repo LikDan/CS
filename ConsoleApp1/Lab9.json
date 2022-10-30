@@ -1,8 +1,0 @@
-[
-  {"Arrival":"California","RouteNumber":"123456","DepartmentTime":"2022-10-30T09:55:33.3036094-07:00"},
-  {"Arrival":"SanFrancisco","RouteNumber":"111111","DepartmentTime":"2022-10-31T09:55:33.3036094-07:00"},
-  {"Arrival":"Miami","RouteNumber":"AUI123","DepartmentTime":"2022-11-01T09:55:33.3036094-07:00"},
-  {"Arrival":"NewYork","RouteNumber":"324465","DepartmentTime":"2022-11-02T09:55:33.3036094-07:00"},
-  {"Arrival":"Boston","RouteNumber":"1236WS","DepartmentTime":"2022-11-03T09:55:33.3036094-07:00"},
-  {"Arrival":"Denver","RouteNumber":"MoreThan6","DepartmentTime":"2022-10-30T09:57:33.3036094-07:00"}
-]

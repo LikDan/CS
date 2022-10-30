@@ -11,4 +11,22 @@
       <PackageReference Include="Newtonsoft.Json" Version="13.0.2-beta2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Labs\1" />
+      <Folder Include="Labs\2" />
+      <Folder Include="Labs\3" />
+      <Folder Include="Labs\4" />
+      <Folder Include="Labs\5" />
+      <Folder Include="Labs\6" />
+      <Folder Include="Labs\7" />
+      <Folder Include="Practices\1" />
+      <Folder Include="Practices\2" />
+      <Folder Include="Practices\3" />
+      <Folder Include="Practices\4" />
+      <Folder Include="Practices\5" />
+      <Folder Include="Practices\6" />
+      <Folder Include="Practices\7" />
+      <Folder Include="Practices\8" />
+    </ItemGroup>
+
 </Project>
