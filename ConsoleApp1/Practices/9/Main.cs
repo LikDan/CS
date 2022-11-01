@@ -15,7 +15,8 @@ public class Practice9
             persons.Add(Person.Parse(s));
         }
 
-        Console.WriteLine(string.Join("\n", persons.Select(p => p.GetInfo())));
+        persons.Sort((p1, p2) => p1.GetBirthday().CompareTo(p2.GetBirthday()));
+        Console.WriteLine(string.Join("\n", persons.Select(p => p.ToString())));
 
         Console.WriteLine("---------------------------\nEnter zodiac sign");
 
@@ -28,9 +29,6 @@ public class Practice9
             return;
         }
 
-        Console.WriteLine(string.Join("\n", persons.Select(p => p.GetInfo())));
-
-
-        
+        Console.WriteLine(string.Join("\n", persons.Select(p => p.ToString())));
     }
 }

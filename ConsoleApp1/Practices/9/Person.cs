@@ -15,7 +15,9 @@ struct Person
         Sign = sign;
     }
 
-    public string GetInfo() => $"Name: {Firstname} {Lastname}, Birthday {string.Join(" ", Birthday)}, Zodiac: {Sign}";
+    public DateOnly GetBirthday() => DateOnly.Parse($"{Birthday[0]}/{Birthday[1]}/{Birthday[2]}");
+    
+    public override string ToString() => $"Name: {Firstname} {Lastname}, Birthday {string.Join(" ", Birthday)}, Zodiac: {Sign}";
     
     public static Person Parse(string str)
     {

@@ -6,7 +6,7 @@ public class Mod5Array
 
     public Mod5Array(int[] arr)
     {
-        _arr = arr;
+        Arr = arr;
     }
 
     public int[] Arr

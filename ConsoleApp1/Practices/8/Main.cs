@@ -4,13 +4,8 @@ namespace ConsoleApp1.Practices._8;
 
 public class Practice8
 {
-    private static void Task1()
+    private static int Amount(double s, double a, double b)
     {
-        Console.WriteLine("Enter S A B");
-        var s = Convert.ToDouble(Console.ReadLine());
-        var a = Convert.ToDouble(Console.ReadLine());
-        var b = Convert.ToDouble(Console.ReadLine());
-
         s -= b;
 
         var i = 0;
@@ -20,6 +15,18 @@ public class Practice8
             s += a - b;
             i++;
         }
+
+        return i;
+    }
+
+    private static void Task1()
+    {
+        Console.WriteLine("Enter S A B");
+        var s = Convert.ToDouble(Console.ReadLine());
+        var a = Convert.ToDouble(Console.ReadLine());
+        var b = Convert.ToDouble(Console.ReadLine());
+
+        var i = Amount(s, a, b);
 
         Console.WriteLine($"i -> {i}");
     }
@@ -51,7 +58,7 @@ public class Practice8
         var i = Convert.ToInt32(Console.ReadLine());
         var x = Convert.ToDouble(Console.ReadLine());
 
-        var nums = GetNums(i + 1);
+        var nums = GetNums(i*10);
 
         var sum = 0.0;
         for (var j = 1; j <= i; j++)

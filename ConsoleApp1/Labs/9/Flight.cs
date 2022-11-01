@@ -6,7 +6,7 @@ public class Flight : IComparable<Flight>
 
     public Flight(string routeNumber, string arrival, DateTime departmentTime)
     {
-        _routeNumber = routeNumber.Length == 6 ? routeNumber : new string('?', 6);
+        RouteNumber = routeNumber;
         Arrival = arrival;
         DepartmentTime = departmentTime;
     }
@@ -18,7 +18,7 @@ public class Flight : IComparable<Flight>
         get => _routeNumber;
         set
         {
-            if (value.Length != 6) return;
+            if (value.Length != 6) value = new string('?', 6);
             _routeNumber = value;
         }
     }
@@ -31,6 +31,15 @@ public class Flight : IComparable<Flight>
         return DepartmentTime.CompareTo(other?.DepartmentTime);
     }
 
+    public static bool operator >(Flight f1, Flight f2)
+    {
+        return f1.DepartmentTime > f2.DepartmentTime;
+    }
+    public static bool operator <(Flight f1, Flight f2)
+    {
+        return f1.DepartmentTime < f2.DepartmentTime;
+    } 
+    
     public override string ToString()
     {
         return $"#{_routeNumber} -> {Arrival} {DepartmentTime:g}";

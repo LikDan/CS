@@ -49,9 +49,9 @@ public class Worker
         get => _salary;
         set
         {
-            if (value < 200)
+            if (value < 1160)
             {
-                _salary = 200;
+                _salary = 1160;
                 return;
             }
 
@@ -83,12 +83,12 @@ public class Worker
         if (!Enum.TryParse(words[5], out Sex sex)) sex = Sex.Undefined;
 
         return new Worker(
-            Convert.ToUInt32(words[0]),
-            Convert.ToDouble(words[1]),
-            DateOnly.Parse(words[2]),
-            words[3],
-            words[4],
-            sex
+            experience: Convert.ToUInt32(words[0]),
+            salary: Convert.ToDouble(words[1]),
+            birthday: DateOnly.Parse(words[2]),
+            name: words[3],
+            job: words[4],
+            sex: sex
         );
     }
 }

@@ -1,6 +1,3 @@
-using System.Reflection;
-using System.Reflection.Metadata;
-
 namespace ConsoleApp1;
 
 public class ConsoleApp1

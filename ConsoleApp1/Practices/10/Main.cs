@@ -9,7 +9,7 @@ public class Practice10
         var reflection = new Reflection<Worker>();
 
         var workersArray =
-            JsonConvert.DeserializeObject<Worker[]>(File.ReadAllText(@"P:\CS\ConsoleApp1\Practices\10\data.json"))!;
+            JsonConvert.DeserializeObject<Worker[]>(File.ReadAllText(@"/home/user/RiderProjects/CS/ConsoleApp1/Practices/10/data.json"))!;
         var workers = new SmartList<Worker>(reflection, workersArray);
 
         var worker = Worker.Parse("1 -10 2004/01/01 Chupilkin Rat Male");
