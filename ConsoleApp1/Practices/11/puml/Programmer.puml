@@ -1,0 +1,7 @@
+@startuml
+class Programmer {
+    + Lang : string <<get>> <<set>>
+    + Programmer(lang:string, experience:uint, salary:double, birthday:DateOnly, name:string, job:string, sex:Sex, sickDays:int, vacation:int, bonus:double, taxes:List<Tax>)
+}
+Worker <|-- Programmer
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!include ./Reflection.puml
+!include ./Sex.puml
+!include ./Tax.puml
+!include ./Worker.puml
+!include ./IReflection.puml
+!include ./SmartList.puml
+!include ./Main.puml
+!include ./WorkerManagement.puml
+!include ./Programmer.puml
+@enduml

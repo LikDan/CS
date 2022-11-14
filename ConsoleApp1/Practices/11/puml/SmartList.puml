@@ -1,0 +1,12 @@
+@startuml
+class "SmartList`1"<T> {
+    + SmartList(reflection:Reflection<T>, arr:T[])
+    + <<override>> ToString() : string
+    + SortBy(fieldName:string) : void
+    + MinBy(fieldName:string) : T?
+    + MaxBy(fieldName:string) : T?
+}
+class "List`1"<T> {
+}
+"List`1" "<T>" <|-- "SmartList`1"
+@enduml

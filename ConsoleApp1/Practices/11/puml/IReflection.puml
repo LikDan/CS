@@ -1,0 +1,8 @@
+@startuml
+interface "IReflection`1"<TF> {
+    GetFiledByName(name:string, obj:TF) : T
+    CompareByFieldName(name:string, first:TF, second:TF) : int
+    GetField(fieldName:string) : Func<TF, T>
+    GetComparator(fieldName:string) : Comparison<TF>
+}
+@enduml

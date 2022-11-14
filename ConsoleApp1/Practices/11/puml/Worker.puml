@@ -1,0 +1,17 @@
+@startuml
+class Worker {
+    + Worker(experience:uint, salary:double, birthday:DateOnly, name:string, job:string, sex:Sex, sickDays:int, vacation:int, bonus:double, taxes:List<Tax>)
+    + Name : string <<get>> <<set>>
+    + Job : string <<get>> <<set>>
+    + Salary : double <<get>> <<set>>
+    + Experience : uint <<get>> <<set>>
+    + <<override>> GetSalary() : double
+    + <<override>> ToString() : string
+    + AddTax(tax:Tax) : void
+    + <<override>> DaysOnWork() : int
+    + {static} Parse(str:string) : Worker
+}
+WorkerManagement <|-- Worker
+Worker --> "Birthday" DateOnly
+Worker --> "Sex" Sex
+@enduml

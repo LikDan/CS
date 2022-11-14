@@ -1,0 +1,12 @@
+@startuml
+abstract class WorkerManagement {
+    + SickDays : int <<get>> <<set>>
+    + Vacation : int <<get>> <<set>>
+    + Bonus : double <<get>> <<set>>
+    + <<virtual>> GetSalary() : double
+    + {abstract} DaysOnWork() : int
+}
+class "List`1"<T> {
+}
+WorkerManagement --> "Taxes<Tax>" "List`1"
+@enduml

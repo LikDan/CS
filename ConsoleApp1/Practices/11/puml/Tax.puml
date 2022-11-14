@@ -1,0 +1,7 @@
+@startuml
+class Tax {
+    + Tax(name:string, percent:double)
+    + Name : string <<get>> <<set>>
+    + Percent : double <<get>> <<set>>
+}
+@enduml
