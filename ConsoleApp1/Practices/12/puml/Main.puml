@@ -1,0 +1,5 @@
+@startuml
+class Practice12 {
+    + {static} Launch() : void
+}
+@enduml
