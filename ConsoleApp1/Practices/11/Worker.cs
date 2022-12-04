@@ -1,3 +1,5 @@
+using ConsoleApp1.Labs._12;
+
 namespace ConsoleApp1.Practices._11;
 
 internal class Worker: WorkerManagement
@@ -23,12 +25,7 @@ internal class Worker: WorkerManagement
         get => _birthday;
         set
         {
-            if (2022 - value.Year > 150)
-            {
-                _birthday = DateOnly.FromDateTime(DateTime.Now.AddYears(-18));
-                return;
-            }
-
+            if (2022 - value.Year > 150) throw new MyException("bad year");
             _birthday = value;
         }
     }

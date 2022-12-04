@@ -19,28 +19,40 @@ public class Check
     public double DiscountAmount
     {
         get => _discountAmount;
-        set => _discountAmount = value > 0 ? value : throw new MyException("DiscountAmount Exception");
+        set => _discountAmount = value >= 0 ? value : throw new MyException("DiscountAmount Exception");
+    }
+
+    private double _price;
+
+    public double Price
+    {
+        get => _price;
+        set => _price = value < 1000 ? value : throw new Exception("Price Exception");
     }
 
     public List<string> Dishes { get; private set; }
 
     public void AddDish(string dish)
     {
-        if (Dishes.Count < 500) throw new MyException("A lot of dishes");
+        if (Dishes.Count >= 500) throw new MyException("A lot of dishes");
         Dishes.Add(dish);
     }
 
-    public Check(double discountAmount, string? discountType, List<string> dishes)
+    public Check(double discountAmount, string? discountType, double price, List<string> dishes)
     {
+        if (dishes.Count == 0) throw new MyException("Where is dishes");
+
         DiscountAmount = discountAmount;
         DiscountType = discountType;
+        Price = price;
         Dishes = dishes;
     }
 
-    public Check(double discountAmount, string? discountType, string dish)
+    public Check(double discountAmount, string? discountType, double price, string dish)
     {
         DiscountAmount = discountAmount;
         DiscountType = discountType;
+        Price = price;
         Dishes = new List<string>();
         
         AddDish(dish);

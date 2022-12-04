@@ -1,3 +1,4 @@
+using ConsoleApp1.Labs._12;
 using ConsoleApp1.Practices._11;
 
 namespace ConsoleApp1.Practices._12;
@@ -27,8 +28,7 @@ internal class Worker: WorkerManagement, IComparable<Worker>, ICloneable
         {
             if (2022 - value.Year > 150)
             {
-                _birthday = DateOnly.FromDateTime(DateTime.Now.AddYears(-18));
-                return;
+                throw new MyException("bad year");
             }
 
             _birthday = value;

@@ -10,5 +10,21 @@ public class Statistic
         set => _name = value.ToTitleCase();
     }
 
-    public List<Check> Visits { get; set; }
+    public List<Check> Visits { get; private set; }
+
+    public Statistic(string name, List<Check> visits)
+    {
+        Name = name;
+        Visits = visits;
+    }
+
+    public void AddVisit(Check visit)
+    {
+        Visits.Add(visit);
+    }
+
+    public double GetAvgSum()
+    {
+        return Visits.Average(v => v.Price);
+    }
 }
