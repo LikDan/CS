@@ -1,0 +1,12 @@
+/Users/likdan/RiderProjects/CS/CalculationLibrary/bin/Release/net6.0/CalculationLibrary.deps.json
+/Users/likdan/RiderProjects/CS/CalculationLibrary/bin/Release/net6.0/CalculationLibrary.dll
+/Users/likdan/RiderProjects/CS/CalculationLibrary/bin/Release/net6.0/CalculationLibrary.pdb
+/Users/likdan/RiderProjects/CS/CalculationLibrary/obj/Release/net6.0/CalculationLibrary.csproj.AssemblyReference.cache
+/Users/likdan/RiderProjects/CS/CalculationLibrary/obj/Release/net6.0/CalculationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/likdan/RiderProjects/CS/CalculationLibrary/obj/Release/net6.0/CalculationLibrary.AssemblyInfoInputs.cache
+/Users/likdan/RiderProjects/CS/CalculationLibrary/obj/Release/net6.0/CalculationLibrary.AssemblyInfo.cs
+/Users/likdan/RiderProjects/CS/CalculationLibrary/obj/Release/net6.0/CalculationLibrary.csproj.CoreCompileInputs.cache
+/Users/likdan/RiderProjects/CS/CalculationLibrary/obj/Release/net6.0/CalculationLibrary.dll
+/Users/likdan/RiderProjects/CS/CalculationLibrary/obj/Release/net6.0/refint/CalculationLibrary.dll
+/Users/likdan/RiderProjects/CS/CalculationLibrary/obj/Release/net6.0/CalculationLibrary.pdb
+/Users/likdan/RiderProjects/CS/CalculationLibrary/obj/Release/net6.0/ref/CalculationLibrary.dll

@@ -64,3 +64,7 @@ P:/CS/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.csproj.CopyComplete
 /Users/likdan/RiderProjects/CS/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.pdb
 /Users/likdan/RiderProjects/CS/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.genruntimeconfig.cache
 /Users/likdan/RiderProjects/CS/ConsoleApp1/obj/Debug/net6.0/ref/ConsoleApp1.dll
+/Users/likdan/RiderProjects/CS/ConsoleApp1/bin/Debug/net6.0/CalculationLibrary.dll
+/Users/likdan/RiderProjects/CS/ConsoleApp1/bin/Debug/net6.0/CalculationLibrary.pdb
+/Users/likdan/RiderProjects/CS/ConsoleApp1/bin/Debug/net6.0/NXMLFormatter.dll
+/Users/likdan/RiderProjects/CS/ConsoleApp1/bin/Debug/net6.0/SoapFormatter.dll

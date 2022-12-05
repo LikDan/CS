@@ -9,6 +9,8 @@
 
     <ItemGroup>
       <PackageReference Include="Newtonsoft.Json" Version="13.0.2-beta2" />
+      <PackageReference Include="NXMLFormatter" Version="2.0.0" />
+      <PackageReference Include="SoapFormatter" Version="1.1.9" />
     </ItemGroup>
 
     <ItemGroup>
@@ -27,6 +29,10 @@
       <Folder Include="Practices\6" />
       <Folder Include="Practices\7" />
       <Folder Include="Practices\8" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CalculationLibrary\CalculationLibrary.csproj" />
     </ItemGroup>
 
 </Project>

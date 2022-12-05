@@ -1,0 +1,3 @@
+/Users/likdan/RiderProjects/CS/CalculationLibrary/bin/Release/net6.0/publish/CalculationLibrary.dll
+/Users/likdan/RiderProjects/CS/CalculationLibrary/bin/Release/net6.0/publish/CalculationLibrary.deps.json
+/Users/likdan/RiderProjects/CS/CalculationLibrary/bin/Release/net6.0/publish/CalculationLibrary.pdb

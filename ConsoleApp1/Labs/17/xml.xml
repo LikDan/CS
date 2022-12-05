@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?><ArrayOfFlat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Flat><Address>UNKNOWN</Address><Size>0</Size><RoomAmount>1</RoomAmount></Flat><Flat><Address>Address</Address><Size>0</Size><RoomAmount>1</RoomAmount></Flat><Flat><Address>adadasdsa</Address><Size>123</Size><RoomAmount>1</RoomAmount></Flat><Flat><Address>aswdfdsfdswfewfewf</Address><Size>12325.132</Size><RoomAmount>1</RoomAmount></Flat><Flat><Address>asdsdadsadasdsadsa</Address><Size>438</Size><RoomAmount>1</RoomAmount></Flat></ArrayOfFlat>     <RoomAmount>1</RoomAmount>
+    </Flat>
+    <Flat>
+        <Address>asdsdadsadasdsadsa</Address>
+        <Size>438</Size>
+        <RoomAmount>1</RoomAmount>
+    </Flat>
+</ArrayOfFlat>
