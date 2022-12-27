@@ -1,6 +1,7 @@
 namespace ConsoleApp1.Practices._11;
 
-internal abstract class WorkerManagement
+[Serializable]
+public abstract class WorkerManagement
 {
     private int _sickDays;
 

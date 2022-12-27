@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><ArrayOfWorker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Worker><SickDays>0</SickDays><Vacation>0</Vacation><Bonus>0</Bonus><Taxes /><Name>LikDan</Name><Job>Senior golang developer</Job><Salary>9999999999999</Salary><Experience>2</Experience><Sex>Male</Sex></Worker><Worker><SickDays>0</SickDays><Vacation>0</Vacation><Bonus>0</Bonus><Taxes /><Name>LikDan</Name><Job>Senior angular developer</Job><Salary>9999999999999</Salary><Experience>2</Experience><Sex>Male</Sex></Worker><Worker><SickDays>0</SickDays><Vacation>0</Vacation><Bonus>0</Bonus><Taxes /><Name>LikDan</Name><Job>Senior android developer</Job><Salary>9999999999999</Salary><Experience>4</Experience><Sex>Male</Sex></Worker><Worker><SickDays>0</SickDays><Vacation>0</Vacation><Bonus>0</Bonus><Taxes /><Name>LikDan</Name><Job>Senior of seniors c# developer</Job><Salary>9999999999999</Salary><Experience>1</Experience><Sex>Male</Sex></Worker></ArrayOfWorker>
+        <Sex>Male</Sex>
+    </Worker>
+    <Worker>
+        <SickDays>0</SickDays>
+        <Vacation>0</Vacation>
+        <Bonus>0</Bonus>
+        <Taxes/>
+        <Name>LikDan</Name>
+        <Job>Senior of seniors c# developer</Job>
+        <Salary>9999999999999</Salary>
+        <Experience>1</Experience>
+        <Sex>Male</Sex>
+    </Worker>
+</ArrayOfWorker>

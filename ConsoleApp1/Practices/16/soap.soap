@@ -1,0 +1,79 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/clr/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <SOAP-ENV:Body>
+    <SOAP-ENC:Array id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ConsoleApp1.Practices._16/ConsoleApp1%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull" SOAP-ENC:arrayType="a1:Worker[4]">
+      <item href="#ref-2" />
+      <item href="#ref-3" />
+      <item href="#ref-4" />
+      <item href="#ref-5" />
+    </SOAP-ENC:Array>
+    <a1:Worker id="ref-2" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ConsoleApp1.Practices._16/ConsoleApp1%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_experience>2</_experience>
+      <_salary>9999999999999</_salary>
+      <_x003C_Name_x003E_k__BackingField id="ref-6">LikDan</_x003C_Name_x003E_k__BackingField>
+      <_x003C_Job_x003E_k__BackingField id="ref-7">Senior golang developer</_x003C_Job_x003E_k__BackingField>
+      <_x003C_Sex_x003E_k__BackingField>Male</_x003C_Sex_x003E_k__BackingField>
+      <WorkerManagement_x002B__sickDays>0</WorkerManagement_x002B__sickDays>
+      <WorkerManagement_x002B__vacation>0</WorkerManagement_x002B__vacation>
+      <WorkerManagement_x002B__x003C_Bonus_x003E_k__BackingField>0</WorkerManagement_x002B__x003C_Bonus_x003E_k__BackingField>
+      <WorkerManagement_x002B__x003C_Taxes_x003E_k__BackingField href="#ref-8" />
+    </a1:Worker>
+    <a1:Worker id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ConsoleApp1.Practices._16/ConsoleApp1%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_experience>2</_experience>
+      <_salary>9999999999999</_salary>
+      <_x003C_Name_x003E_k__BackingField id="ref-9">LikDan</_x003C_Name_x003E_k__BackingField>
+      <_x003C_Job_x003E_k__BackingField id="ref-10">Senior angular developer</_x003C_Job_x003E_k__BackingField>
+      <_x003C_Sex_x003E_k__BackingField>Male</_x003C_Sex_x003E_k__BackingField>
+      <WorkerManagement_x002B__sickDays>0</WorkerManagement_x002B__sickDays>
+      <WorkerManagement_x002B__vacation>0</WorkerManagement_x002B__vacation>
+      <WorkerManagement_x002B__x003C_Bonus_x003E_k__BackingField>0</WorkerManagement_x002B__x003C_Bonus_x003E_k__BackingField>
+      <WorkerManagement_x002B__x003C_Taxes_x003E_k__BackingField href="#ref-11" />
+    </a1:Worker>
+    <a1:Worker id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ConsoleApp1.Practices._16/ConsoleApp1%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_experience>4</_experience>
+      <_salary>9999999999999</_salary>
+      <_x003C_Name_x003E_k__BackingField id="ref-12">LikDan</_x003C_Name_x003E_k__BackingField>
+      <_x003C_Job_x003E_k__BackingField id="ref-13">Senior android developer</_x003C_Job_x003E_k__BackingField>
+      <_x003C_Sex_x003E_k__BackingField>Male</_x003C_Sex_x003E_k__BackingField>
+      <WorkerManagement_x002B__sickDays>0</WorkerManagement_x002B__sickDays>
+      <WorkerManagement_x002B__vacation>0</WorkerManagement_x002B__vacation>
+      <WorkerManagement_x002B__x003C_Bonus_x003E_k__BackingField>0</WorkerManagement_x002B__x003C_Bonus_x003E_k__BackingField>
+      <WorkerManagement_x002B__x003C_Taxes_x003E_k__BackingField href="#ref-14" />
+    </a1:Worker>
+    <a1:Worker id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ConsoleApp1.Practices._16/ConsoleApp1%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_experience>1</_experience>
+      <_salary>9999999999999</_salary>
+      <_x003C_Name_x003E_k__BackingField id="ref-15">LikDan</_x003C_Name_x003E_k__BackingField>
+      <_x003C_Job_x003E_k__BackingField id="ref-16">Senior of seniors c# developer</_x003C_Job_x003E_k__BackingField>
+      <_x003C_Sex_x003E_k__BackingField>Male</_x003C_Sex_x003E_k__BackingField>
+      <WorkerManagement_x002B__sickDays>0</WorkerManagement_x002B__sickDays>
+      <WorkerManagement_x002B__vacation>0</WorkerManagement_x002B__vacation>
+      <WorkerManagement_x002B__x003C_Bonus_x003E_k__BackingField>0</WorkerManagement_x002B__x003C_Bonus_x003E_k__BackingField>
+      <WorkerManagement_x002B__x003C_Taxes_x003E_k__BackingField href="#ref-17" />
+    </a1:Worker>
+    <a2:_x0030__x002C__x0020_Culture_x003D_neutral_x002C__x0020_PublicKeyToken_x003D_null_x005D__x005D_ id="ref-8" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Collections.Generic.List`1[[ConsoleApp1.Practices._11.Tax%2C%20ConsoleApp1%2C%20Version%3D1.0.0/System.Private.CoreLib%2C%20Version%3D6.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D7cec85d7bea7798e">
+      <_items href="#ref-18" />
+      <_size>0</_size>
+      <_version>0</_version>
+    </a2:_x0030__x002C__x0020_Culture_x003D_neutral_x002C__x0020_PublicKeyToken_x003D_null_x005D__x005D_>
+    <a2:_x0030__x002C__x0020_Culture_x003D_neutral_x002C__x0020_PublicKeyToken_x003D_null_x005D__x005D_ id="ref-11" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Collections.Generic.List`1[[ConsoleApp1.Practices._11.Tax%2C%20ConsoleApp1%2C%20Version%3D1.0.0/System.Private.CoreLib%2C%20Version%3D6.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D7cec85d7bea7798e">
+      <_items href="#ref-18" />
+      <_size>0</_size>
+      <_version>0</_version>
+    </a2:_x0030__x002C__x0020_Culture_x003D_neutral_x002C__x0020_PublicKeyToken_x003D_null_x005D__x005D_>
+    <a2:_x0030__x002C__x0020_Culture_x003D_neutral_x002C__x0020_PublicKeyToken_x003D_null_x005D__x005D_ id="ref-14" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Collections.Generic.List`1[[ConsoleApp1.Practices._11.Tax%2C%20ConsoleApp1%2C%20Version%3D1.0.0/System.Private.CoreLib%2C%20Version%3D6.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D7cec85d7bea7798e">
+      <_items href="#ref-18" />
+      <_size>0</_size>
+      <_version>0</_version>
+    </a2:_x0030__x002C__x0020_Culture_x003D_neutral_x002C__x0020_PublicKeyToken_x003D_null_x005D__x005D_>
+    <a2:_x0030__x002C__x0020_Culture_x003D_neutral_x002C__x0020_PublicKeyToken_x003D_null_x005D__x005D_ id="ref-17" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Collections.Generic.List`1[[ConsoleApp1.Practices._11.Tax%2C%20ConsoleApp1%2C%20Version%3D1.0.0/System.Private.CoreLib%2C%20Version%3D6.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D7cec85d7bea7798e">
+      <_items href="#ref-18" />
+      <_size>0</_size>
+      <_version>0</_version>
+    </a2:_x0030__x002C__x0020_Culture_x003D_neutral_x002C__x0020_PublicKeyToken_x003D_null_x005D__x005D_>
+    <SOAP-ENC:Array id="ref-18" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ConsoleApp1.Practices._11/ConsoleApp1%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull" SOAP-ENC:arrayType="a3:Tax[0]">
+    </SOAP-ENC:Array>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>PublicKeyToken%3Dnull" SOAP-ENC:arrayType="a3:Tax[0]">
+    </SOAP-ENC:Array>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
