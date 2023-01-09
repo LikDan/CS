@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "Name",
+    "Account": "Account",
+    "Amount": 1,
+    "Year": 2022
+  },
+  {
+    "Name": "Name",
+    "Account": "Account",
+    "Amount": 112,
+    "Year": 2022
+  },
+  {
+    "Name": "Name",
+    "Account": "Account",
+    "Amount": 4121,
+    "Year": 2022
+  },
+  {
+    "Name": "Name",
+    "Account": "Account",
+    "Amount": 1432,
+    "Year": 2022
+  },
+  {
+    "Name": "Name",
+    "Account": "Account",
+    "Amount": 4231,
+    "Year": 2022
+  },
+  {
+    "Name": "Name",
+    "Account": "Account",
+    "Amount": 1,
+    "Year": 2020
+  },
+  {
+    "Name": "Name",
+    "Account": "Account",
+    "Amount": 1,
+    "Year": -1
+  }
+]
